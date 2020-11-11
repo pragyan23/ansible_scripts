@@ -1,9 +1,9 @@
 ---
- - name: Install Nmap using role on redhat
+ - name: Do something for centos systems
    import_tasks: nmap_cent.yml
    when: ansible_facts['os_family']|lower == 'redhat'
 
- - name: Install NMap using role on ubuntu 
+ - name: Do something for ubuntu systems 
    import_tasks: nmap_ubu.yml
    when: ansible_facts['os_family']|lower == 'debian'
 ...
