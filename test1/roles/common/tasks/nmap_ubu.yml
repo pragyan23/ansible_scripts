@@ -1,0 +1,7 @@
+---
+ - name: Install Nmap on ubuntu
+   ansible.builtin.apt:
+    name: nmap
+    state: present
+...
+

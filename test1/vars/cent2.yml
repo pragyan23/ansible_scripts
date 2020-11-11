@@ -1,0 +1,5 @@
+---
+ ansible_user: cent2 
+ ansible_password: 1234 
+ ansible_sudo_pass: 1234
+...

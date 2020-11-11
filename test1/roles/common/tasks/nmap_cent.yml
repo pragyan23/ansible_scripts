@@ -1,0 +1,6 @@
+---
+ - name: Install nmap package on centos
+   yum:
+    name: nmap
+    state: present
+...

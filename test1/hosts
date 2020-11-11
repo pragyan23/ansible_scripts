@@ -1,0 +1,8 @@
+[cent_2]
+cent2@192.168.43.29 
+
+[ubu_1]
+pragyan1@192.168.43.165 
+
+[all:vars]
+ansible_connection=ssh

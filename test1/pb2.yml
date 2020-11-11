@@ -1,0 +1,19 @@
+---
+ - name: Do something for centos
+   hosts: cent_2
+   pre_tasks:
+    - name: include vars 
+      include_vars: vars/cent2.yml
+
+   roles:
+    - common
+
+ - name: Do something for ubuntu
+   hosts: ubu_1
+   pre_tasks:
+    - name: include vars 2
+      include_vars: vars/ubu1.yml
+
+   roles:
+    - common   
+...

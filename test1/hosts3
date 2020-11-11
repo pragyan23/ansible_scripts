@@ -1,0 +1,8 @@
+[cent_2]
+192.168.43.29 ansible_user=cent2 ansible_password=1234 ansible_sudo_pass=1234
+
+[ubu_1]
+192.168.43.165 ansible_user=pragyan1 ansible_password=1234 ansible_sudo_pass=1234
+
+[all:vars]
+ansible_connection=ssh

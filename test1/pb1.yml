@@ -1,0 +1,11 @@
+---
+ - name: install packages
+   hosts: cent_2
+   become: true
+
+   tasks:
+   - name: install nmap
+     yum:
+      name: nmap
+      state: installed
+...
